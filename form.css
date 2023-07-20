@@ -1,0 +1,69 @@
+.btn {
+  background-color: #c2fbd7;
+  border-radius: 50px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-weight: bold;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 70%;
+}
+
+.btn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+#err{
+  margin-left:auto;
+  color:red;
+  font-size: 20px;
+  font-family: 'IM Fell English SC', serif;
+}
+.labl{
+  font-family: 'IM Fell English SC', serif;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.inpt{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 100%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+html,body{
+  background-image: url(bg12.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.top{
+  padding: 100px auto;
+}
+.middle{
+  margin: 50px auto;
+}
+.top{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color:#623448;
+    font-size: 250%;
+    height: 100px;
+    padding: 50px;
+}
